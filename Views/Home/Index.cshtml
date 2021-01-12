@@ -1,0 +1,104 @@
+﻿<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+​<div class="text-center">
+    <div class="row">
+        <h1>Calculadora en html</h1>
+        @*Text Box Resultado*@
+        <div class="col-12">
+            <input type="text" id="txtResultadoId" />
+        </div>
+        @*Primera Linea de Numeros*@
+        <div class="col-4">
+            <button>7</button>
+        </div>
+        <div class="col-4">
+            <button>8</button>
+        </div>
+        <div class="col-4">
+            <button>9</button>
+        </div>
+    </div>
+    <div class="row">
+        @*Segunda Linea de Numeros*@
+        <div class="col-2">
+            <button class="botonCalculadora">4</button>
+        </div>
+        <div class="col-2">
+            <button class="botonCalculadora">5</button>
+        </div>
+        <div class="col-2">
+            <button class="botonCalculadora">6</button>
+        </div>
+        <div class="col-2">
+            <button class="botonOperador">+</button>
+        </div>
+    </div>
+    <div class="row">
+        @*Tercer Linea de Numeros*@
+        <div class="col-2">
+            <button class="botonCalculadora">1</button>
+        </div>
+        <div class="col-2">
+            <button class="botonCalculadora">2</button>
+        </div>
+        <div class="col-2">
+            <button class="botonCalculadora">3</button>
+        </div>
+        <div class="col-2">
+            <button class="botonOperador">/</button>
+        </div>
+    </div>
+    <div class="row">
+        @*Cuarta Linea de Numeros*@
+        <div class="col-4">
+            <button class="botonCero">0</button>
+        </div>
+        <div class="col-2">
+            <button class="botonOperador">x</button>
+        </div>
+        <div class="col-2">
+            <button class="botonOperador">=</button>
+        </div>
+    </div>
+</div>
+<style>
+    .botonCalculadora {
+        width: 50px;
+    }
+
+    .botonCero {
+        width: 100px;
+    }
+
+    .botonOperador {
+        color: crimson;
+        width: 50px;
+    }
+
+    #Principal {
+        width: 25%;
+    }
+
+    #txtResultadoId {
+        width: 204px;
+    }
+
+    h1 {
+        border: solid;
+        border-color: olivedrab;
+    }
+
+    body{
+        background:border-box;
+        color:blanchedalmond;
+
+    }
+</style>
+</div>
